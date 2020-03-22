@@ -7,7 +7,7 @@
     <title>前往指定元素</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body id="top">
     <nav>
         <ul>
             <li data-goto-target="#box1" data-goto-duration="750">連結1</li>
@@ -23,6 +23,7 @@
     <div id="box4">區域4</div>
     <div id="box5">區域5</div>
 
+    <div id="back-to-top" data-goto-target="#top" data-goto-duration="1500">︽</div>
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- 先貼別人再貼自己的 -->
